@@ -8,7 +8,7 @@ import TabItem from '@theme/TabItem';
 
 # 开发流程 Step-by-Step
 
-本文将以实现 STM32N647 开发板板载的两个 LED 交替闪烁的功能为例，介绍使用 STM32CubeMX、STM32CubeIDE 和 STM32CubeProgrammer 完成 STM32N647 开发板基础应用开发的流程
+本文将以实现 STM32N647 开发板板载的两个 LED 交替闪烁的功能为例，介绍使用 STM32CubeMX、STM32CubeIDE 和 STM32CubeProgrammer 完成 STM32N647 开发板基础应用开发的流程。
 
 ## Step 1. 使用 STM32CubeMX 生成初始化工程
 
@@ -47,11 +47,11 @@ import TabItem from '@theme/TabItem';
 
                 ::::tip[Project Structure介绍]
 
-                `FSBL`：FSBL（First Stage Boot Loader）工程主要用于开发 FSBL，FSBL 是 STM32N6 结束硬件复位后自动从外部 Flash 加载到内部 SRAM 并运行的第一段用户程序，主要完成相应的初始化工作，并启动 Appli 程序
+                `FSBL`：FSBL（First Stage Boot Loader）工程主要用于开发 FSBL，FSBL 是 STM32N6 结束硬件复位后自动从外部 Flash 加载到内部 SRAM 并运行的第一段用户程序，主要完成相应的初始化工作，并启动 Appli 程序。
 
                 :::warning[FSBL 注意事项]
 
-                FSBL 固件需要使用 STM32_SigningTool_CLI 工具添加头部签名后，烧录到 STM32N6 外部 Flash 的 0 偏移地址处，才能由 STM32N6 正常启动
+                FSBL 固件需要使用 STM32_SigningTool_CLI 工具添加头部签名后，烧录到 STM32N6 外部 Flash 的 0 偏移地址处，才能由 STM32N6 正常启动。
 
                 使用 STM32_SigningTool_CLI 工具为 FSBL 固件添加头部签名的命令如下：
 
@@ -63,15 +63,15 @@ import TabItem from '@theme/TabItem';
 
                 :::
 
-                `Appli`：Appli 工程主要用于开发用户的应用程序，应用程序主要用于实现用户功能
+                `Appli`：Appli 工程主要用于开发用户的应用程序，应用程序主要用于实现用户功能。
 
                 :::warning[Appli 注意事项]
 
-                Appli 固件需要由 FSBL 启动，因此 Appli 固件需要根据 FSBL 指定的 STM32N6 外部 Flash 偏移地址进行开发和烧录，才能被 FSBL 正常启动
+                Appli 固件需要由 FSBL 启动，因此 Appli 固件需要根据 FSBL 指定的 STM32N6 外部 Flash 偏移地址进行开发和烧录，才能被 FSBL 正常启动。
 
                 :::
 
-                `ExtMemLoader`：Appli 工程主要用于开发 External loader，External loader 主要用于 STM32CubeProgrammer、STM32CubeIDE 等工具访问、操作 MCU 外部 Flash
+                `ExtMemLoader`：Appli 工程主要用于开发 External loader，External loader 主要用于 STM32CubeProgrammer、STM32CubeIDE 等工具访问、操作 MCU 外部 Flash。
 
                 :::warning[ExtMemLoader 注意事项]
 
@@ -85,14 +85,14 @@ import TabItem from '@theme/TabItem';
 
                 ::::
 
-                `Toolchain / IDE`：选择所使用的工具链或 IDE，这里选择 STM32CubeIDE，并取消勾选Generate Under Root，因为后续需要使用 STM32CubeIDE 打开工程
+                `Toolchain / IDE`：选择所使用的工具链或 IDE，这里选择 STM32CubeIDE，并取消勾选Generate Under Root，因为后续需要使用 STM32CubeIDE 打开工程。
 
             </TabItem>
             <TabItem value="mcu-and-firmware-package" label="Mcu and Firmware Package">
 
-                `Use Default Firmware Location`：选择是否使用默认的 STM32Cube MCU 软件包路径，可根据实际需求选择
+                `Use Default Firmware Location`：选择是否使用默认的 STM32Cube MCU 软件包路径，可根据实际需求选择。
 
-                `Firmware Relative Path`：选择自定义 STM32Cube MCU 软件包的路径
+                `Firmware Relative Path`：选择自定义 STM32Cube MCU 软件包的路径。
 
             </TabItem>
         </Tabs>
@@ -101,7 +101,7 @@ import TabItem from '@theme/TabItem';
         <Tabs>
             <TabItem value="stm32cube-mcu-packages-and-embedded-software-packs" label="STM32Cube MCU packages and embedded software packs">
 
-            选择工程使用 STM32Cube MCU 软件包等库文件的方式，可根据实际需求选择
+            选择工程使用 STM32Cube MCU 软件包等库文件的方式，可根据实际需求选择。
 
             </TabItem>
         </Tabs>
@@ -128,7 +128,7 @@ import TabItem from '@theme/TabItem';
 
 :::info
 
-STM32N647 开发板板载的两个 LED 分别由 `PG10` 和 `PE10` 控制
+STM32N647 开发板板载的两个 LED 分别由 `PG10` 和 `PE10` 控制。
 
 :::
 
@@ -154,7 +154,7 @@ STM32N647 开发板使用 STM32N6 内部的 SMPS 为 V<sub>DDCORE</sub> 供电
 
 :::note[SYS_S 的 Runtime contexts 配置]
 
-仅勾选 `Application`
+仅勾选 `Application`。
 
 :::
 
@@ -164,7 +164,7 @@ STM32N647 开发板使用 STM32N6 内部的 SMPS 为 V<sub>DDCORE</sub> 供电
 
 :::note[时钟配置说明]
 
-时钟需根据实际需求进行配置，本文仅给出一个简单的时钟配置示例
+时钟需根据实际需求进行配置，本文仅给出一个简单的时钟配置示例。
 
 :::
 
@@ -256,13 +256,13 @@ int main(void)
 
 :::info[应用代码介绍]
 
-上述代码中，实现了跑马灯效果的功能
+上述代码中，实现了跑马灯效果的功能。
 
 :::
 
 :::danger[代码编辑注意事项]
 
-对于 STM32CubeMX 生成的代码，强烈建议仅在 `xxx CODE BEGIN xxx` 和 `xxx CODE END xxx` 之间添加或修改代码，否则在后续使用 STM32CubeMX 重新生成代码时，添加或修改的代码会被覆盖
+对于 STM32CubeMX 生成的代码，强烈建议仅在 `xxx CODE BEGIN xxx` 和 `xxx CODE END xxx` 之间添加或修改代码，否则在后续使用 STM32CubeMX 重新生成代码时，添加或修改的代码会被覆盖。
 
 :::
 
@@ -295,11 +295,11 @@ STM32CubeIDE/Appli/
 
 :::info
 
-STM32N647 开发板板载了 HyperRAM 和 NORFlash，其中，通过 XSPI1 接口连接了容量为 32MB 的 HyperRAM，通过 XSPI2 接口连接了容量为 32MB 的 NORFlash
+STM32N647 开发板板载了 HyperRAM 和 NORFlash，其中，通过 XSPI1 接口连接了容量为 32MB 的 HyperRAM，通过 XSPI2 接口连接了容量为 32MB 的 NORFlash。
 
 :::
 
-本文将介绍使用 `STM32N647X0HXQ_LRUN_RAMxspi1.ld` 构建用于调试的工程，使用 `STM32N647X0HXQ_ROMxspi2_RAMxspi1.ld` 构建用于烧录的工程，但还需要修改这两个链接脚本，使其适用于 STM32N647 开发板
+本文将介绍使用 `STM32N647X0HXQ_LRUN_RAMxspi1.ld` 构建用于调试的工程，使用 `STM32N647X0HXQ_ROMxspi2_RAMxspi1.ld` 构建用于烧录的工程，但还需要修改这两个链接脚本，使其适用于 STM32N647 开发板。
 
 #### Step 2.2.1. 修改 `STM32N647X0HXQ_LRUN_RAMxspi1.ld`
 
@@ -396,9 +396,9 @@ MEMORY
 
 :::tip[BOOT 模式配置]
 
-`Development boot`: BOOT1 接 3.3V
+`Development boot`：BOOT1 接 3.3V
 
-`Flash boot`: BOOT0、BOOT1 都接 GND
+`Flash boot`：BOOT0、BOOT1 都接 GND
 
 :::
 

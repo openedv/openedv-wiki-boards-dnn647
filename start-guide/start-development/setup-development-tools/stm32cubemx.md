@@ -17,7 +17,7 @@ sidebar_position: 1
 
 在使用 STM32CubeMX 开发 STM32N6 之前，需要先在 STM32CubeMX 的内嵌软件包管理器中下载针对 STM32N6 的 STM32Cube MCU 软件包。
 
-打开 STM32CubeMX 后，依次点击工具栏中的 "Help" -> "Manage embedded software packages" 或通过快捷键 `Alt + U` 打开软件包管理器。
+打开 STM32CubeMX 后，依次点击工具栏中的 "Help" -> "Manage embedded software packages" 或通过快捷键 `Alt + U` 打开软件包管理器
 
 ![stm32cubemx embedded software packages manager](./img/stm32cubemx-embedded-software-packages-manager.png)
 

@@ -42,3 +42,24 @@ STM32N647 开发板的软件包中提供了适用于 STM32N647 开发板的 Exte
 External loader 文件需拷贝到特定的路径下，才能被 STM32CubeIDE 正确调用，具体路径为 `<STM32CubeIDE 安装路径>/plugins/com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.xxx/tools/bin/ExternalLoader`。
 
 将 External loader 文件拷贝到上述路径以后，STM32CubeIDE 就可以正常调用 External loader 文件了。
+
+## 系统环境变量配置
+
+在开发前，需要配置 STM32CubeIDE GUN Tools for STM32 插件的可执行文件路径到系统的环境变量，以便在命令行中直接调用 GUN Tools for STM32。
+
+STM32CubeIDE GUN Tools for STM32 插件的可执行文件所在的路径为：`<STM32CubeIDE 安装路径>/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.xxx\tools\bin`
+
+可通过以下命令验证环境变量是否配置成功：
+
+```shell
+arm-none-eabi-gcc --version
+```
+
+如果环境变量配置成功，则该命令会输出 GUN Tools for STM32 的版本信息，例如：
+
+```shell
+arm-none-eabi-gcc.exe (GNU Tools for STM32 12.3.rel1.20240926-1715) 12.3.1 20230626
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+```
