@@ -1,17 +1,17 @@
 ---
-title: 'ThreadX Timer'
-sidebar_position: 59
+title: 'ThreadX Semaphore'
+sidebar_position: 58
 ---
 
-# ThreadX Timer
+# ThreadX Semaphore
 
-ThreadX Timer 实验
+ThreadX Semaphore 实验
 
 ## 前言
 
-这是一个 RTOS 的 Timer 实验，在 STM32N647 开发板上实现了定时任务功能。
+这是一个 RTOS 的 Semaphore 实验，在 STM32N647 开发板上实现了 RTOS 中 Thread 间的同步。
 
-本实验对应的工程文件夹为：`<STM32N647 开发板软件包路径>/Projects/59_ThreadX_Timer`。
+本实验对应的工程文件夹为：`<STM32N647 开发板软件包路径>/Projects/58_ThreadX_Semaphore`。
 
 ## 实验准备
 
@@ -53,4 +53,4 @@ ThreadX Timer 实验
 
 `DS0` 灯以一定的频率闪烁。
 
-`DS1` 灯以一定的频率闪烁，按下 `KEY0` 按键可以启停 `DS1` 灯闪烁。
+每按下 `KEY0` 按键后，`蜂鸣器` 切换发声状态。
