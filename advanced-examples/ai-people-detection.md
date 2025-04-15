@@ -9,7 +9,7 @@ sidebar_position: 1
 
 ## 前言
 
-这是一个机器视觉的应用案例，实现了在 STM32N647 开发板上部署物体检测模型的实验。
+这是一个机器视觉的应用案例，实现了在 STM32N647 开发板上部署物体检测模型。
 
 :::info[预训练模型说明]
 
@@ -17,7 +17,7 @@ sidebar_position: 1
 
 :::
 
-本实验对应的工程文件夹为：`<STM32N647 开发板软件包路径>/Projects/99_Applications/991_AI_People_Detection`
+本实验对应的工程文件夹为：`<STM32N647 开发板软件包路径>/Projects/99_Applications/991_AI_People_Detection`。
 
 ## 实验准备
 

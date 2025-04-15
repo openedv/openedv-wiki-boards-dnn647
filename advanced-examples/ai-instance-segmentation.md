@@ -9,7 +9,7 @@ sidebar_position: 3
 
 ## 前言
 
-这是一个机器视觉的应用案例，实现了在 STM32N647 开发板上部署实例分割模型的实验。
+这是一个机器视觉的应用案例，实现了在 STM32N647 开发板上部署实例分割模型。
 
 :::info[预训练模型说明]
 
@@ -17,7 +17,7 @@ sidebar_position: 3
 
 :::
 
-本实验对应的工程文件夹为：`<STM32N647 开发板软件包路径>/Projects/99_Applications/993_AI_Instance_Segmentation`
+本实验对应的工程文件夹为：`<STM32N647 开发板软件包路径>/Projects/99_Applications/993_AI_Instance_Segmentation`。
 
 ## 实验准备
 
