@@ -43,7 +43,9 @@ Appli 固件默认设置目标 TCP 主机的 IP 地址为 `192.168.2.11`，端�
 
 3. 将 TCP 服务器物理机通过网线与 STM32N647 开发板底板的 `EARTHNET` 接口连接。
 
-4. 将 STM32N647 开发板的 BOOT 模式配置为 `Flash boot` 模式
+4. 使用 USB Type-C 数据线将串口调试助手的物理机与 STM32N647 开发板的 `USB UART` 接口连接。
+
+5. 将 STM32N647 开发板的 BOOT 模式配置为 `Flash boot` 模式
 
 :::tip[STM32N647 开发板 BOOT 模式配置说明]
 
@@ -54,8 +56,6 @@ Appli 固件默认设置目标 TCP 主机的 IP 地址为 `192.168.2.11`，端�
 `Flash boot`：B0、B1 都接 GND
 
 :::
-
-5. 使用 USB Type-C 数据线将串口调试助手的物理机与 STM32N647 开发板的 `USB UART` 接口连接。
 
 6. 将对应接口的电源线接入 STM32N647 开发板底板的 USB Type-C 接口或 DC 接口，为其进行供电，并将 `K1` 自锁开关切换到开启状态。
 
