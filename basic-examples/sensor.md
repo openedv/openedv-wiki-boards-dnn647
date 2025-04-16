@@ -1,17 +1,17 @@
 ---
-title: 'Camera'
-sidebar_position: 43
+title: 'Sensor'
+sidebar_position: 35
 ---
 
-# Camera
+# Sensor
 
-照相机实验
+摄像头实验
 
 ## 前言
 
-这是一个照片拍摄的实验，在 STM32N647 开发板上实现了照相机的功能。
+这是一个摄像头的实验，在 STM32N647 开发板上实现了摄像头图像采集的功能。
 
-本实验对应的工程文件夹为：`<STM32N647 开发板软件包路径>/Projects/43_Camera`。
+本实验对应的工程文件夹为：`<STM32N647 开发板软件包路径>/Projects/35_Sensor`。
 
 ## 实验准备
 
@@ -35,11 +35,11 @@ sidebar_position: 43
 
 :::
 
-3. 将 MIPI 摄像头接入 STM32N647 开发板底板的 `J2` 接口。
+3. 将 MIPI 摄像头接入 STM32N647 开发板底板的 `J2` 接口或将 DVP 摄像头接入 STM32N647 开发板底板的 `P7` 接口。
 
 :::info[摄像头适配说明]
 
-本实验例程仅支持 `正点原子 MCIMX335 摄像头模块`。
+本实验例程支持 `正点原子 MCIMX335 摄像头模块` 和 `正点原子 OV5640 摄像头模块`。
 
 :::
 
@@ -51,9 +51,7 @@ sidebar_position: 43
 
 :::
 
-5. 将 TF 卡接入 STM32N647 开发板的 `TF CARD` 接口。
-
-6. 将 STM32N647 开发板的 BOOT 模式配置为 `Flash boot` 模式
+5. 将 STM32N647 开发板的 BOOT 模式配置为 `Flash boot` 模式
 
 :::tip[STM32N647 开发板 BOOT 模式配置说明]
 
@@ -65,12 +63,10 @@ sidebar_position: 43
 
 :::
 
-7. 将对应接口的电源线接入 STM32N647 开发板底板的 USB Type-C 接口或 DC 接口，为其进行供电，并将 `K1` 自锁开关切换到开启状态。
+6. 将对应接口的电源线接入 STM32N647 开发板底板的 USB Type-C 接口或 DC 接口，为其进行供电，并将 `K1` 自锁开关切换到开启状态。
 
 ## 实验现象
 
 `DS0` 灯以一定的频率闪烁。
 
 LCD 上实时显示摄像头采集的画面图像。
-
-每按下 `KEY0` 按键，可将当前 LCD 显示的图像画面保存到 TF 卡中。
