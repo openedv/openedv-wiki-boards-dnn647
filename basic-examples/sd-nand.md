@@ -1,17 +1,17 @@
 ---
-title: 'SD Card'
-sidebar_position: 38
+title: 'SD NAND'
+sidebar_position: 37
 ---
 
-# SD Card
+# SD NAND
 
-SD 卡实验
+SD NAND 实验
 
 ## 前言
 
-这是一个 SD 卡的实验，在 STM32N647 开发板上实现了读写 SD 卡的功能。
+这是一个 SD NAND 的实验，在 STM32N647 开发板上实现了读写 SD NAND 的功能。
 
-本实验对应的工程文件夹为：`<STM32N647 开发板软件包路径>/Projects/38_SD_Card`。
+本实验对应的工程文件夹为：`<STM32N647 开发板软件包路径>/Projects/37_SD_NAND`。
 
 ## 实验准备
 
@@ -43,11 +43,9 @@ SD 卡实验
 
 :::
 
-4. 将 TF 卡接入 STM32N647 开发板的 `TF CARD` 接口。
+4. 使用 USB Type-C 数据线将串口调试助手的物理机与 STM32N647 开发板的 `USB UART` 接口连接。
 
-5. 使用 USB Type-C 数据线将串口调试助手的物理机与 STM32N647 开发板的 `USB UART` 接口连接。
-
-6. 将 STM32N647 开发板的 BOOT 模式配置为 `Flash boot` 模式
+5. 将 STM32N647 开发板的 BOOT 模式配置为 `Flash boot` 模式
 
 :::tip[STM32N647 开发板 BOOT 模式配置说明]
 
@@ -59,12 +57,12 @@ SD 卡实验
 
 :::
 
-7. 将对应接口的电源线接入 STM32N647 开发板底板的 USB Type-C 接口或 DC 接口，为其进行供电，并将 `K1` 自锁开关切换到开启状态。
+6. 将对应接口的电源线接入 STM32N647 开发板底板的 USB Type-C 接口或 DC 接口，为其进行供电，并将 `K1` 自锁开关切换到开启状态。
 
 ## 实验现象
 
 `DS0` 灯以一定的频率闪烁。
 
-LCD 上显示 TF 卡的总容量和可用容量信息。
+LCD 上显示 SD NAND 的总容量和可用容量信息。
 
-每按下 `KEY0` 按键，可对 TF 卡进行读取测试，读取的内容为 TF 卡中第 0 个块的数据，读取的数据可通过串口调试助手查看。
+每按下 `KEY0` 按键，可对 SD NAND 进行读取测试，读取的内容为 SD NAND 中第 0 个块的数据，读取的数据可通过串口调试助手查看。
