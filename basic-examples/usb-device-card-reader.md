@@ -1,17 +1,17 @@
 ---
-title: 'USB Device Sound Card'
-sidebar_position: 53
+title: 'USB Device Card Reader'
+sidebar_position: 52
 ---
 
-# USB Device Sound Card
+# USB Device Card Reader
 
-USB Device Sound Card 实验
+USB Device Card Reader 实验
 
 ## 前言
 
-这是一个 USB 从机的实验，在 STM32N647 开发板上实现了 USB 声卡的功能。
+这是一个 USB 从机的实验，在 STM32N647 开发板上实现了 USB 读卡器的功能。
 
-本实验对应的工程文件夹为：`<STM32N647 开发板软件包路径>/Projects/53_USB_Device_Sound_Card`。
+本实验对应的工程文件夹为：`<STM32N647 开发板软件包路径>/Projects/52_USB_Device_Card_Reader`。
 
 ## 实验准备
 
@@ -43,9 +43,11 @@ USB Device Sound Card 实验
 
 :::
 
-4. 使用 USB Type-C 数据线将具有 USB HOST Audio 功能的物理机与 STM32N647 开发板的 `USB SLAVE` 接口连接。
+4. 使用 USB Type-C 数据线将具有 USB HOST MSC 功能的物理机与 STM32N647 开发板的 `USB SLAVE` 接口连接。
 
-5. 将 STM32N647 开发板的 BOOT 模式配置为 `Flash boot` 模式
+5. 将 TF 卡接入 STM32N647 开发板的 `TF CARD` 接口。
+
+6. 将 STM32N647 开发板的 BOOT 模式配置为 `Flash boot` 模式
 
 :::tip[STM32N647 开发板 BOOT 模式配置说明]
 
@@ -57,12 +59,12 @@ USB Device Sound Card 实验
 
 :::
 
-6. 将对应接口的电源线接入 STM32N647 开发板底板的 USB Type-C 接口或 DC 接口，为其进行供电，并将 `K1` 自锁开关切换到开启状态。
+7. 将对应接口的电源线接入 STM32N647 开发板底板的 USB Type-C 接口或 DC 接口，为其进行供电，并将 `K1` 自锁开关切换到开启状态。
 
 ## 实验现象
 
 `DS0` 灯以一定的频率闪烁。
 
-LCD 上显示 USB 的连接状态。
+LCD 上显示外接 TF 卡的容量信息、板载 SD NAND 的容量信息和 USB 的连接状态。
 
-`SPEAKER` 扬声器将播放来自 USB HOST 端的音频。
+USB HOST 端，可通过 USB HOST MSC 功能访问 TF 卡和 SD NAND。
