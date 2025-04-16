@@ -5,7 +5,7 @@ sidebar_position: 56
 
 # USB Host HID
 
-USB Host HID 实验
+USB 鼠标键盘（Host）实验
 
 ## 前言
 

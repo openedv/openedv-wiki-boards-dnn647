@@ -5,7 +5,7 @@ sidebar_position: 51
 
 # T9 Pinyin
 
-T9 Pinyin 实验
+T9 拼音输入法实验
 
 ## 前言
 

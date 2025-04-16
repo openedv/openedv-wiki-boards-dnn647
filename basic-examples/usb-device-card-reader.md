@@ -5,7 +5,7 @@ sidebar_position: 52
 
 # USB Device Card Reader
 
-USB Device Card Reader 实验
+USB 读卡器（Device）实验
 
 ## 前言
 
@@ -43,7 +43,7 @@ USB Device Card Reader 实验
 
 :::
 
-4. 使用 USB Type-C 数据线将具有 USB HOST MSC 功能的物理机与 STM32N647 开发板的 `USB SLAVE` 接口连接。
+4. 使用 USB Type-C 数据线将具有 USB Host MSC 功能的物理机与 STM32N647 开发板的 `USB SLAVE` 接口连接。
 
 5. 将 TF 卡接入 STM32N647 开发板的 `TF CARD` 接口。
 
@@ -67,4 +67,4 @@ USB Device Card Reader 实验
 
 LCD 上显示外接 TF 卡的容量信息、板载 SD NAND 的容量信息和 USB 的连接状态。
 
-USB HOST 端，可通过 USB HOST MSC 功能访问 TF 卡和 SD NAND。
+USB Host 端，可通过 USB Host MSC 功能访问 TF 卡和 SD NAND。

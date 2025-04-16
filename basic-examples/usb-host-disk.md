@@ -5,7 +5,7 @@ sidebar_position: 55
 
 # USB Host DISK
 
-USB Host DISK 实验
+USB U 盘（Host）实验
 
 ## 前言
 

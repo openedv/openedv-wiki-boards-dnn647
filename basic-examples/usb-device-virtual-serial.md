@@ -5,7 +5,7 @@ sidebar_position: 54
 
 # USB Device Virtual Serial
 
-USB Device Virtual Serial 实验
+USB 虚拟串口（Device）实验
 
 ## 前言
 

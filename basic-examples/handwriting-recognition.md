@@ -1,17 +1,17 @@
 ---
-title: 'USB Device Sound Card'
-sidebar_position: 53
+title: 'Handwriting Recognition'
+sidebar_position: 50
 ---
 
-# USB Device Sound Card
+# Handwriting Recognition
 
-USB 声卡（Device）实验
+手写识别实验
 
 ## 前言
 
-这是一个 USB 从机的实验，在 STM32N647 开发板上实现了 USB 声卡的功能。
+这是一个手写识别的实验，在 STM32N647 开发板上实现了手写识别的功能。
 
-本实验对应的工程文件夹为：`<STM32N647 开发板软件包路径>/Projects/53_USB_Device_Sound_Card`。
+本实验对应的工程文件夹为：`<STM32N647 开发板软件包路径>/Projects/50_Handwriting_Recognition`。
 
 ## 实验准备
 
@@ -43,9 +43,7 @@ USB 声卡（Device）实验
 
 :::
 
-4. 使用 USB Type-C 数据线将具有 USB Host Audio 功能的物理机与 STM32N647 开发板的 `USB SLAVE` 接口连接。
-
-5. 将 STM32N647 开发板的 BOOT 模式配置为 `Flash boot` 模式
+4. 将 STM32N647 开发板的 BOOT 模式配置为 `Flash boot` 模式
 
 :::tip[STM32N647 开发板 BOOT 模式配置说明]
 
@@ -57,12 +55,10 @@ USB 声卡（Device）实验
 
 :::
 
-6. 将对应接口的电源线接入 STM32N647 开发板底板的 USB Type-C 接口或 DC 接口，为其进行供电，并将 `K1` 自锁开关切换到开启状态。
+5. 将对应接口的电源线接入 STM32N647 开发板底板的 USB Type-C 接口或 DC 接口，为其进行供电，并将 `K1` 自锁开关切换到开启状态。
 
 ## 实验现象
 
 `DS0` 灯以一定的频率闪烁。
 
-LCD 上显示 USB 的连接状态。
-
-`SPEAKER` 扬声器将播放来自 USB Host 端的音频。
+LCD 上显示手写识别的界面，通过触摸 LCD 屏幕上的写入区，可输入手写数字或字母，并显示对应的数字或字母。
