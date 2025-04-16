@@ -1,17 +1,17 @@
 ---
-title: 'Video Player'
-sidebar_position: 47
+title: 'SPDIF'
+sidebar_position: 46
 ---
 
-# Video Player
+# SPDIF
 
-视频播放器实验
+光纤音频实验
 
 ## 前言
 
-这是一个视频解码的实验，在 STM32N647 开发板上实现了视频播放器的功能。
+这是一个光纤音频的实验，在 STM32N647 开发板上实现了播放光纤接收的音频的功能。
 
-本实验对应的工程文件夹为：`<STM32N647 开发板软件包路径>/Projects/47_Video_Player`。
+本实验对应的工程文件夹为：`<STM32N647 开发板软件包路径>/Projects/46_SPDIF`。
 
 ## 实验准备
 
@@ -45,15 +45,7 @@ sidebar_position: 47
 
 4. 将 TF 卡接入 STM32N647 开发板的 `TF CARD` 接口。
 
-:::info[视频文件说明]
-
-用于播放的视频文件需提前放在 TF 卡的根目录的 `VIDEO` 文件夹下。
-
-本实验例程仅支持视频流采用 `MJPEG` 编码且音频流采用 `PCM` 编码 的 `AVI` 格式视频文件。
-
-:::
-
-5. 使用 USB Type-C 数据线将串口调试助手的物理机与 STM32N647 开发板的 `USB UART` 接口连接。
+5. 将光纤音频发送模块通过光纤音频传输线接入 STM32N647 开发板核心板的 `OPTICAL1` 接口。
 
 6. 将 STM32N647 开发板的 BOOT 模式配置为 `Flash boot` 模式
 
@@ -71,8 +63,6 @@ sidebar_position: 47
 
 ## 实验现象
 
-`DS0` 和 `DS1` 灯以一定的频率闪烁。
+`DS0` 灯以一定的频率闪烁。
 
-LCD 上播放视频文件的视频流，`SPEAKER` 扬声器播放视频文件的音频流。
-
-可通过串口助手观察到当前播放视频的解码信息。
+LCD 上显示音频流的采样率，`SPEAKER` 扬声器播放音频流。
