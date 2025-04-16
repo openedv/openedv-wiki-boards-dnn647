@@ -1,17 +1,17 @@
 ---
-title: 'JPEG'
-sidebar_position: 42
+title: 'Picture Show'
+sidebar_position: 41
 ---
 
-# JPEG
+# Picture Show
 
-JPEG 硬件解码实验
+图片显示实验
 
 ## 前言
 
-这是一个 JPEG 硬件解码的实验，在 STM32N647 开发板上实现了显示 JPEG 图片的功能。
+这是一个图片解码的实验，在 STM32N647 开发板上实现了显示图片的功能。
 
-本实验对应的工程文件夹为：`<STM32N647 开发板软件包路径>/Projects/42_JPEG`。
+本实验对应的工程文件夹为：`<STM32N647 开发板软件包路径>/Projects/41_Picture_Show`。
 
 ## 实验准备
 
@@ -45,9 +45,11 @@ JPEG 硬件解码实验
 
 4. 将 TF 卡接入 STM32N647 开发板的 `TF CARD` 接口。
 
-:::info[JPEG 文件说明]
+:::info[图片文件说明]
 
-用于显示的 JPEG 文件需提前放在 TF 卡的根目录的 `PICTURE` 文件夹下。
+用于显示的图片文件需提前放在 TF 卡的根目录的 `PICTURE` 文件夹下。
+
+本实验例程仅支持 BMP、JPEG 和 GIF 格式的图片文件
 
 :::
 
@@ -69,8 +71,8 @@ JPEG 硬件解码实验
 
 `DS0` 灯以一定的频率闪烁。
 
-LCD 上显示硬件解码后的 JPEG 图像。
+LCD 上显示解码后的图像。
 
-每按下 `KEY0` 按键，LCD 上显示的 JPEG 图像会切换到上一张。
+每按下 `KEY0` 按键，LCD 上显示的图像会切换到上一张。
 
-每按下 `KEY1` 按键，LCD 上显示的 JPEG 图像会切换到下一张。
+每按下 `KEY1` 按键，LCD 上显示的图像会切换到下一张。
