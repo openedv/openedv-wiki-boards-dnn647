@@ -11,7 +11,7 @@ sidebar_position: 40
 
 这是一个汉字显示的实验，在 STM32N647 开发板上实现了显示汉字的功能。
 
-本实验对应的工程文件夹为：`<STM32N647 开发板软件包路径>/Projects/41_Picture_Show`。
+本实验对应的工程文件夹为：`<STM32N647 开发板软件包路径>/Projects/40_Chinese_Show`。
 
 ## 实验准备
 
