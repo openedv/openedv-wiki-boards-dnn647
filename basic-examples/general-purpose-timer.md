@@ -21,21 +21,45 @@ sidebar_position: 9
 
 4.通用定时器脉冲计数实验：使用TIM3_CH1做输入捕获，我们将捕获PC6上的低电平脉宽，并对脉宽进行计数，通过串口打印出来。大家可以通过按KEY0按键，输入低电平脉冲，通过按KEY1重设当前计数。LED1闪烁，提示程序运行。
 
-
+本实验对应的工程文件夹为：`<STM32N647 开发板软件包路径>/Projects/09_General_Purpose_Timer`。
 
 ## 实验准备
 
-1. 编写成功后，切换BOOT1跳线帽至3.3V处，便可进行程序下载，下载完之后，将BOOT1跳线帽切换回GND处，对开发板重新上电。
+1. 将 STM32N647 开发板软件包中提供的示例 FSBL 固件烧录到 STM32N647 开发板上。
 
-2. 四个不同实验需要进行不同的实验准备
+:::tip[FSBL 烧录说明]
 
-   通用定时器中断实验：开发板重新上电后便可以观察到实验现象。
+本实验使用的 FSBL 为 STM32N647 开发板软件包中的示例 FSBL，请根据 [**示例 FSBL介绍**](../start-guide/software-package/software-package.md#fsbl) 中的说明烧录对应 `fsbl.hex`。
 
-   通用定时器PWM输出实验：将示波器探头接入PC6，调节合适的挡位（PWM频率约2KHz）。
+不同的的实验中，若使用相同的 FSBL，则无需重复烧录。
 
-   通用定时器输入捕获实验：将开发板的USB_UART端连接电脑，然后打开串口调试助手XCOM，连接上开发板对应的端口。
+:::
 
-   通用定时器脉冲计数实验：将开发板的USB_UART端连接电脑，然后打开串口调试助手XCOM，连接上开发板对应的端口。
+2. 将工程文件夹下 `Binary` 目录下的 `appli.hex` 依次烧录到 STM32N647 开发板上。
+
+:::tip[烧录说明]
+
+烧录顺序不影响烧录结果。
+
+[**使用 `STM32CubeProgrammer` 烧录**](../start-guide/start-development/step-by-step.md#step-3-使用-stm32cubeprogrammer-烧录)。
+
+:::
+
+3. 若是 `通用定时器输入捕获实验` 或 `通用定时器脉冲计数实验`，则使用 USB Type-C 数据线将串口调试助手的物理机与 STM32N647 开发板的 `USB UART` 接口连接。
+
+4. 将 STM32N647 开发板的 BOOT 模式配置为 `Flash boot` 模式
+
+:::tip[STM32N647 开发板 BOOT 模式配置说明]
+
+通过 STM32N647 开发板 `P6` 的跳线帽配置其 BOOT 模式：
+
+`Development boot`：B1 接 3V3
+
+`Flash boot`：B0、B1 都接 GND
+
+:::
+
+5. 将对应接口的电源线接入 STM32N647 开发板底板的 USB Type-C 接口或 DC 接口，为其进行供电，并将 `K1` 自锁开关切换到开启状态。
 
 ## 实验现象
 

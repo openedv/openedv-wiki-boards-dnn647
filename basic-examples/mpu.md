@@ -13,10 +13,45 @@ STM32的Cortex M4（STM32F3/F4系列）、Cortex M7（STM32F7/H7/H7RS系列）�
 
 本实验使用STM32N647自带的MPU功能，对一个特定的内存空间（地址：0x341FFC00）进行写访问保护。开机时，串口调试助手显示：MPU protected，表示默认是有写保护的。按下WK_UP，可以关闭内存保护，此时串口调试助手显示：MPU unprotected，按KEY0可以往数组里面写数据，按KEY1，可以读取数组里面的数据。如果不关闭内存写保护，直接按下KEY0写数据，会无法写入，导致程序出现异常。LED0用于提示程序正在运行，所有信息都是通过串口1输出，需要用串口调试助手查看。
 
+本实验对应的工程文件夹为：`<STM32N647 开发板软件包路径>/Projects/13_MPU`。
+
 ## 实验准备
 
-1. 编写成功后，切换BOOT1跳线帽至3.3V处，便可进行程序下载，下载完之后，将BOOT1跳线帽切换回GND处，对开发板重新上电。
-1. 将开发板的USB_UART端连接电脑，然后打开串口调试助手XCOM，连接上开发板对应的端口。
+1. 将 STM32N647 开发板软件包中提供的示例 FSBL 固件烧录到 STM32N647 开发板上。
+
+:::tip[FSBL 烧录说明]
+
+本实验使用的 FSBL 为 STM32N647 开发板软件包中的示例 FSBL，请根据 [**示例 FSBL介绍**](../start-guide/software-package/software-package.md#fsbl) 中的说明烧录对应 `fsbl.hex`。
+
+不同的的实验中，若使用相同的 FSBL，则无需重复烧录。
+
+:::
+
+2. 将工程文件夹下 `Binary` 目录下的 `appli.hex` 依次烧录到 STM32N647 开发板上。
+
+:::tip[烧录说明]
+
+烧录顺序不影响烧录结果。
+
+[**使用 `STM32CubeProgrammer` 烧录**](../start-guide/start-development/step-by-step.md#step-3-使用-stm32cubeprogrammer-烧录)。
+
+:::
+
+3. 使用 USB Type-C 数据线将串口调试助手的物理机与 STM32N647 开发板的 `USB UART` 接口连接。
+
+4. 将 STM32N647 开发板的 BOOT 模式配置为 `Flash boot` 模式
+
+:::tip[STM32N647 开发板 BOOT 模式配置说明]
+
+通过 STM32N647 开发板 `P6` 的跳线帽配置其 BOOT 模式：
+
+`Development boot`：B1 接 3V3
+
+`Flash boot`：B0、B1 都接 GND
+
+:::
+
+5. 将对应接口的电源线接入 STM32N647 开发板底板的 USB Type-C 接口或 DC 接口，为其进行供电，并将 `K1` 自锁开关切换到开启状态。
 
 ## 实验现象
 

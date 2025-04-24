@@ -21,21 +21,45 @@ sidebar_position: 10
 
 4.高级定时器PWM输入模式实验：首先通过TIM3_CH1(PC6)输出PWM波。然后把PC6输出的PWM波用杜邦线接入PD6（定时器1通道1），最后通过串口打印PWM波的脉宽和频率等信息。LED1闪烁来提示程序正在运行。
 
-
+本实验对应的工程文件夹为：`<STM32N647 开发板软件包路径>/Projects/10_Advanced_Control_Timer`。
 
 ## 实验准备
 
-1. 编写成功后，切换BOOT1跳线帽至3.3V处，便可进行程序下载，下载完之后，将BOOT1跳线帽切换回GND处，对开发板重新上电。
+1. 将 STM32N647 开发板软件包中提供的示例 FSBL 固件烧录到 STM32N647 开发板上。
 
-2. 四个不同实验需要进行不同的实验准备
+:::tip[FSBL 烧录说明]
 
-   高级定时器输出指定个数PWM实验：将示波器探头接入PC6，调节合适的挡位（PWM频率约2Hz）。
+本实验使用的 FSBL 为 STM32N647 开发板软件包中的示例 FSBL，请根据 [**示例 FSBL介绍**](../start-guide/software-package/software-package.md#fsbl) 中的说明烧录对应 `fsbl.hex`。
 
-   高级定时器输出比较模式实验：将示波器探头接入PC6和PD7，调节合适的挡位（PWM频率约500Hz）。
+不同的的实验中，若使用相同的 FSBL，则无需重复烧录。
 
-   高级定时器互补输出带死区控制实验：将示波器探头接入PC6和PE8，调节合适的挡位（PWM频率约1KHz），用一根杜邦线连接PE15和GND，用于测试刹车功能。
+:::
 
-   高级定时器PWM输入模式实验：用杜邦线连接PC6和PD6，然后将开发板的USB_UART端连接电脑，然后打开串口调试助手XCOM，连接上开发板对应的端口。
+2. 将工程文件夹下 `Binary` 目录下的 `appli.hex` 依次烧录到 STM32N647 开发板上。
+
+:::tip[烧录说明]
+
+烧录顺序不影响烧录结果。
+
+[**使用 `STM32CubeProgrammer` 烧录**](../start-guide/start-development/step-by-step.md#step-3-使用-stm32cubeprogrammer-烧录)。
+
+:::
+
+3. 若是 `高级定时器 PWM 输入模式实验`，则使用 USB Type-C 数据线将串口调试助手的物理机与 STM32N647 开发板的 `USB UART` 接口连接。
+
+4. 将 STM32N647 开发板的 BOOT 模式配置为 `Flash boot` 模式
+
+:::tip[STM32N647 开发板 BOOT 模式配置说明]
+
+通过 STM32N647 开发板 `P6` 的跳线帽配置其 BOOT 模式：
+
+`Development boot`：B1 接 3V3
+
+`Flash boot`：B0、B1 都接 GND
+
+:::
+
+5. 将对应接口的电源线接入 STM32N647 开发板底板的 USB Type-C 接口或 DC 接口，为其进行供电，并将 `K1` 自锁开关切换到开启状态。
 
 ## 实验现象
 
