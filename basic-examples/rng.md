@@ -1,11 +1,11 @@
 ---
-title: 'RNG'
+title: '随机数发生器实验'
 sidebar_position: 18
 ---
 
-# RNG
+# 随机数发生器实验
 
-随机数发生器实验
+RNG
 
 ## 前言
 

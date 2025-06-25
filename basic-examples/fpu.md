@@ -1,11 +1,11 @@
 ---
-title: 'FPU'
+title: 'FPU 实验'
 sidebar_position: 48
 ---
 
-# FPU
+# FPU 实验
 
-FPU 实验
+FPU
 
 ## 前言
 

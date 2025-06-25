@@ -1,11 +1,11 @@
 ---
-title: 'Handwriting Recognition'
+title: '手写识别实验'
 sidebar_position: 50
 ---
 
-# Handwriting Recognition
+# 手写识别实验
 
-手写识别实验
+Handwriting Recognition
 
 ## 前言
 

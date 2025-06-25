@@ -1,11 +1,11 @@
 ---
-title: 'Serial'
+title: '串口通信实验'
 sidebar_position: 5
 ---
 
-# Serial
+# 串口通信实验
 
-串口通信实验
+Serial
 
 ## 前言
 

@@ -1,11 +1,11 @@
 ---
-title: 'TFTLCD'
+title: 'TFTLCD(MCU 屏) 实验'
 sidebar_position: 14
 ---
 
-# TFTLCD
+# TFTLCD(MCU 屏) 实验
 
-TFTLCD(MCU屏)实验
+TFTLCD
 
 ## 前言
 

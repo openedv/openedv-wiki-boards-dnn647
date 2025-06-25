@@ -1,11 +1,11 @@
 ---
-title: 'RGBLCD'
+title: 'LTDC LCD(RGB 屏) 实验'
 sidebar_position: 15
 ---
 
-# RGBLCD
+# LTDC LCD(RGB 屏) 实验
 
-LTDC LCD(RGB屏)实验
+RGBLCD
 
 ## 前言
 

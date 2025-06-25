@@ -1,11 +1,11 @@
 ---
-title: 'DMA'
+title: 'DMA 实验'
 sidebar_position: 19
 ---
 
-# DMA
+# DMA 实验
 
-DMA实验
+DMA
 
 ## 前言
 

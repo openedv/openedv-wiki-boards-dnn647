@@ -1,11 +1,11 @@
 ---
-title: 'Button EXTI'
+title: '外部中断实验'
 sidebar_position: 4
 ---
 
-# Button EXTI
+# 外部中断实验
 
-外部中断实验
+Button EXTI
 
 ## 前言
 

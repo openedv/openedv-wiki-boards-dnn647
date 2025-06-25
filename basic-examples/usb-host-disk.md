@@ -1,11 +1,11 @@
 ---
-title: 'USB Host DISK'
+title: 'USB U 盘（Host）实验'
 sidebar_position: 55
 ---
 
-# USB Host DISK
+# USB U 盘（Host）实验
 
-USB U 盘（Host）实验
+USB Host DISK
 
 ## 前言
 

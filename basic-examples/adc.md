@@ -1,11 +1,11 @@
 ---
-title: 'ADC'
+title: 'ADC 实验'
 sidebar_position: 20
 ---
 
-# ADC
+# ADC 实验
 
-ADC实验
+ADC
 
 ## 前言
 

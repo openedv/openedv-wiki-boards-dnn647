@@ -1,11 +1,11 @@
 ---
-title: 'ThreadX Timer'
+title: 'ThreadX Timer 实验'
 sidebar_position: 59
 ---
 
-# ThreadX Timer
+# ThreadX Timer 实验
 
-ThreadX Timer 实验
+ThreadX Timer
 
 ## 前言
 

@@ -1,11 +1,11 @@
 ---
-title: 'ThreadX Semaphore'
+title: 'ThreadX Semaphore 实验'
 sidebar_position: 58
 ---
 
-# ThreadX Semaphore
+# ThreadX Semaphore 实验
 
-ThreadX Semaphore 实验
+ThreadX Semaphore
 
 ## 前言
 

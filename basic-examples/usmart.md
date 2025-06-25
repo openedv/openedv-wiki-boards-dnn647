@@ -1,11 +1,11 @@
 ---
-title: 'USMART'
+title: 'USMART 调试组件实验'
 sidebar_position: 16
 ---
 
-# USMART
+# USMART 调试组件实验
 
-USMART调试组件实验
+USMART
 
 ## 前言
 

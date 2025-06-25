@@ -1,11 +1,11 @@
 ---
-title: 'ThreadX Queue'
+title: 'ThreadX Queue 实验'
 sidebar_position: 60
 ---
 
-# ThreadX Queue
+# ThreadX Queue 实验
 
-ThreadX Queue 实验
+ThreadX Queue
 
 ## 前言
 

@@ -1,11 +1,11 @@
 ---
-title: 'USB Host HID'
+title: 'USB 鼠标键盘（Host）实验'
 sidebar_position: 56
 ---
 
-# USB Host HID
+# USB 鼠标键盘（Host）实验
 
-USB 鼠标键盘（Host）实验
+USB Host HID
 
 ## 前言
 

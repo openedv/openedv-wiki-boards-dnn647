@@ -1,11 +1,11 @@
 ---
-title: 'DSP'
+title: 'DSP 实验'
 sidebar_position: 49
 ---
 
-# DSP
+# DSP 实验
 
-DSP 实验
+DSP
 
 ## 前言
 

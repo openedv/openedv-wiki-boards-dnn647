@@ -1,11 +1,11 @@
 ---
-title: 'RTC'
+title: 'RTC 实时时钟实验'
 sidebar_position: 17
 ---
 
-# RTC
+# RTC 实时时钟实验
 
-RTC实时时钟实验
+RTC
 
 ## 前言
 

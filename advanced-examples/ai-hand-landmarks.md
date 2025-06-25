@@ -1,11 +1,11 @@
 ---
-title: 'AI Hand Landmarks'
+title: '手掌关键点实验'
 sidebar_position: 5
 ---
 
-# AI Hand Landmarks
+# 手掌关键点实验
 
-手掌关键点实验
+AI Hand Landmarks
 
 ## 前言
 

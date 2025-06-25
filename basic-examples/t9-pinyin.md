@@ -1,11 +1,11 @@
 ---
-title: 'T9 Pinyin'
+title: 'T9 拼音输入法实验'
 sidebar_position: 51
 ---
 
-# T9 Pinyin
+# T9 拼音输入法实验
 
-T9 拼音输入法实验
+T9 Pinyin
 
 ## 前言
 

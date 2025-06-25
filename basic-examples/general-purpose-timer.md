@@ -1,11 +1,11 @@
 ---
-title: 'General Purpose Timer'
+title: '通用定时器实验'
 sidebar_position: 9
 ---
 
-# General Purpose Timer
+# 通用定时器实验
 
-通用定时器实验
+General Purpose Timer
 
 ## 前言
 

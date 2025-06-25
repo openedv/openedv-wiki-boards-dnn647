@@ -1,11 +1,11 @@
 ---
-title: 'FDCAN'
+title: 'FDCAN 通讯实验'
 sidebar_position: 26
 ---
 
-# FDCAN
+# FDCAN 通讯实验
 
-FDCAN通讯实验
+FDCAN
 
 ## 前言
 

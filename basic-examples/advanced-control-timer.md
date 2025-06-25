@@ -1,11 +1,11 @@
 ---
-title: 'Advanced Control Timer'
+title: '高级定时器实验'
 sidebar_position: 10
 ---
 
-# Advanced Control Timer
+# 高级定时器实验
 
-高级定时器实验
+Advanced Control Timer
 
 ## 前言
 

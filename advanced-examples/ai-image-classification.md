@@ -1,11 +1,11 @@
 ---
-title: 'AI Image Classification'
+title: '图像分类实验'
 sidebar_position: 2
 ---
 
-# AI Image Classification
+# 图像分类实验
 
-图像分类实验
+AI Image Classification
 
 ## 前言
 

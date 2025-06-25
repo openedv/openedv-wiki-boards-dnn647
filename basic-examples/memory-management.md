@@ -1,11 +1,11 @@
 ---
-title: 'Memory Management'
+title: '内存管理实验'
 sidebar_position: 36
 ---
 
-# Memory Management
+# 内存管理实验
 
-内存管理实验
+Memory Management
 
 ## 前言
 

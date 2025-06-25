@@ -1,11 +1,11 @@
 ---
-title: 'MPU'
+title: '内存保护 (MPU) 实验'
 sidebar_position: 13
 ---
 
-# MPU
+# 内存保护 (MPU) 实验
 
-内存保护(MPU)实验
+MPU
 
 ## 前言
 

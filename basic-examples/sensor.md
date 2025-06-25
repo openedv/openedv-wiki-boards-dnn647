@@ -1,11 +1,11 @@
 ---
-title: 'Sensor'
+title: '摄像头实验'
 sidebar_position: 35
 ---
 
-# Sensor
+# 摄像头实验
 
-摄像头实验
+Sensor
 
 ## 前言
 

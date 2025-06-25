@@ -1,11 +1,11 @@
 ---
-title: 'AI Multi Pose Estimation'
+title: '人体姿态估计实验'
 sidebar_position: 4
 ---
 
-# AI Multi Pose Estimation
+# 人体姿态估计实验
 
-人体姿态估计实验
+AI Multi Pose Estimation
 
 ## 前言
 

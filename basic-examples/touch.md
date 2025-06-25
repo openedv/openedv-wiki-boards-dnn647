@@ -1,11 +1,11 @@
 ---
-title: 'Touch'
+title: '触摸屏实验'
 sidebar_position: 27
 ---
 
-# Touch
+# 触摸屏实验
 
-触摸屏实验
+Touch
 
 ## 前言
 

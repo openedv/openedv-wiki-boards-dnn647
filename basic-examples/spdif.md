@@ -1,11 +1,11 @@
 ---
-title: 'SPDIF'
+title: '光纤音频实验'
 sidebar_position: 46
 ---
 
-# SPDIF
+# 光纤音频实验
 
-光纤音频实验
+SPDIF
 
 ## 前言
 

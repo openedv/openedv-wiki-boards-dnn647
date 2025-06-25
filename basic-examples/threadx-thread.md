@@ -1,11 +1,11 @@
 ---
-title: 'ThreadX Thread'
+title: 'ThreadX Thread 实验'
 sidebar_position: 57
 ---
 
-# ThreadX Thread
+# ThreadX Thread 实验
 
-ThreadX Thread 实验
+ThreadX Thread
 
 ## 前言
 

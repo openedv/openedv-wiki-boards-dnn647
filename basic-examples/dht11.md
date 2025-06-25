@@ -1,11 +1,11 @@
 ---
-title: 'DHT11'
+title: 'DHT11 数字温湿度传感器实验'
 sidebar_position: 30
 ---
 
-# DHT11
+# DHT11 数字温湿度传感器实验
 
-DHT11数字温湿度传感器实验
+DHT11
 
 ## 前言
 

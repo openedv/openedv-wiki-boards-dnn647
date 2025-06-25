@@ -1,11 +1,11 @@
 ---
-title: 'Music Player'
+title: '音乐播放器实验'
 sidebar_position: 44
 ---
 
-# Music Player
+# 音乐播放器实验
 
-音乐播放器实验
+Music Player
 
 ## 前言
 

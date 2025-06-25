@@ -1,11 +1,11 @@
 ---
-title: 'Video Player'
+title: '视频播放器实验'
 sidebar_position: 47
 ---
 
-# Video Player
+# 视频播放器实验
 
-视频播放器实验
+Video Player
 
 ## 前言
 

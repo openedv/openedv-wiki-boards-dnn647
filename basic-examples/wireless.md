@@ -1,11 +1,11 @@
 ---
-title: 'Wireless'
+title: '无线通讯实验'
 sidebar_position: 33
 ---
 
-# Wireless
+# 无线通讯实验
 
-无线通讯实验
+Wireless
 
 ## 前言
 

@@ -1,11 +1,11 @@
 ---
-title: 'NetXDuo TCP Client'
+title: 'NetXDuo TCP 客户端实验'
 sidebar_position: 61
 ---
 
-# NetXDuo TCP Client
+# NetXDuo TCP 客户端实验
 
-NetXDuo TCP 客户端实验
+NetXDuo TCP Client
 
 ## 前言
 

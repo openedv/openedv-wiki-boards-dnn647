@@ -1,11 +1,11 @@
 ---
-title: 'WWDG'
+title: '窗口看门狗实验'
 sidebar_position: 7
 ---
 
-# WWDG
+# 窗口看门狗实验
 
-窗口看门狗实验
+WWDG
 
 ## 前言
 

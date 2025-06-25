@@ -1,11 +1,11 @@
 ---
-title: 'Picture Show'
+title: '图片显示实验'
 sidebar_position: 41
 ---
 
-# Picture Show
+# 图片显示实验
 
-图片显示实验
+Picture Show
 
 ## 前言
 

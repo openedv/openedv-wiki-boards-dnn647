@@ -1,11 +1,11 @@
 ---
-title: 'PWMDAC'
+title: 'PWMDAC 实验'
 sidebar_position: 22
 ---
 
-# PWMDAC
+# PWMDAC 实验
 
-PWMDAC实验
+PWMDAC
 
 ## 前言
 

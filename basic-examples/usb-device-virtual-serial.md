@@ -1,11 +1,11 @@
 ---
-title: 'USB Device Virtual Serial'
+title: 'USB 虚拟串口（Device）实验'
 sidebar_position: 54
 ---
 
-# USB Device Virtual Serial
+# USB 虚拟串口（Device）实验
 
-USB 虚拟串口（Device）实验
+USB Device Virtual Serial
 
 ## 前言
 

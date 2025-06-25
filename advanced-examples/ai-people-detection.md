@@ -1,11 +1,11 @@
 ---
-title: 'AI People Detection'
+title: '人体检测实验'
 sidebar_position: 1
 ---
 
-# AI People Detection
+# 人体检测实验
 
-人体检测实验
+AI People Detection
 
 ## 前言
 

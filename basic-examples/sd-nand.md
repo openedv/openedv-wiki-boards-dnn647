@@ -1,11 +1,11 @@
 ---
-title: 'SD NAND'
+title: 'SD NAND 实验'
 sidebar_position: 37
 ---
 
-# SD NAND
+# SD NAND 实验
 
-SD NAND 实验
+SD NAND
 
 ## 前言
 

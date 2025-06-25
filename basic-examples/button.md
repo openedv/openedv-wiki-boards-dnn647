@@ -1,11 +1,11 @@
 ---
-title: 'Button'
+title: '按键输入实验'
 sidebar_position: 3
 ---
 
-# Button
+# 按键输入实验
 
-按键输入实验
+Button
 
 ## 前言
 

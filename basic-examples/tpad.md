@@ -1,11 +1,11 @@
 ---
-title: 'TPAD'
+title: '电容触摸按键实验'
 sidebar_position: 11
 ---
 
-# TPAD
+# 电容触摸按键实验
 
-电容触摸按键实验
+TPAD
 
 ## 前言
 

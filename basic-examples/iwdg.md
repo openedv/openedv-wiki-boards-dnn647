@@ -1,11 +1,11 @@
 ---
-title: 'IWDG'
+title: '独立看门狗实验'
 sidebar_position: 6
 ---
 
-# IWDG
+# 独立看门狗实验
 
-独立看门狗实验
+IWDG
 
 ## 前言
 

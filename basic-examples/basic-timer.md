@@ -1,11 +1,11 @@
 ---
-title: 'Basic Timer'
+title: '基本定时器实验'
 sidebar_position: 8
 ---
 
-# Basic Timer
+# 基本定时器实验
 
-基本定时器实验
+Basic Timer
 
 ## 前言
 

@@ -1,11 +1,11 @@
 ---
-title: 'Buzzer'
+title: '蜂鸣器实验'
 sidebar_position: 2
 ---
 
-# Buzzer
+# 蜂鸣器实验
 
-蜂鸣器实验
+Buzzer
 
 ## 前言
 

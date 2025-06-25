@@ -1,11 +1,11 @@
 ---
-title: 'Recorder'
+title: '录音机实验'
 sidebar_position: 45
 ---
 
-# Recorder
+# 录音机实验
 
-录音机实验
+Recorder
 
 ## 前言
 

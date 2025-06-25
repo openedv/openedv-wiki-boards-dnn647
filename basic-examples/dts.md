@@ -1,11 +1,11 @@
 ---
-title: 'DTS'
+title: 'DTS 数字温度传感器实验'
 sidebar_position: 21
 ---
 
-# DTS
+# DTS 数字温度传感器实验
 
-DTS数字温度传感器实验
+DTS
 
 ## 前言
 

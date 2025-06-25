@@ -1,11 +1,11 @@
 ---
-title: 'OLED'
+title: 'OLED 显示实验'
 sidebar_position: 12
 ---
 
-# OLED
+# OLED 显示实验
 
-OLED显示实验
+OLED
 
 ## 前言
 

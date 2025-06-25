@@ -1,11 +1,11 @@
 ---
-title: 'Camera'
+title: '照相机实验'
 sidebar_position: 43
 ---
 
-# Camera
+# 照相机实验
 
-照相机实验
+Camera
 
 ## 前言
 

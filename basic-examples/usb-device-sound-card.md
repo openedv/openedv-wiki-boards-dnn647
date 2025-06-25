@@ -1,11 +1,11 @@
 ---
-title: 'USB Device Sound Card'
+title: 'USB 声卡（Device）实验'
 sidebar_position: 53
 ---
 
-# USB Device Sound Card
+# USB 声卡（Device）实验
 
-USB 声卡（Device）实验
+USB Device Sound Card
 
 ## 前言
 

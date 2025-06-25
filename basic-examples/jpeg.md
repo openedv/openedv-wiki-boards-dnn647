@@ -1,11 +1,11 @@
 ---
-title: 'JPEG'
+title: 'JPEG 硬件解码实验'
 sidebar_position: 42
 ---
 
-# JPEG
+# JPEG 硬件解码实验
 
-JPEG 硬件解码实验
+JPEG
 
 ## 前言
 

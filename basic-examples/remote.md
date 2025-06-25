@@ -1,11 +1,11 @@
 ---
-title: 'Remote'
+title: '红外遥控器实验'
 sidebar_position: 28
 ---
 
-# Remote
+# 红外遥控器实验
 
-红外遥控器实验
+Remote
 
 ## 前言
 

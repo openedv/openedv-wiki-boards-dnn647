@@ -1,11 +1,11 @@
 ---
-title: 'USB Device Card Reader'
+title: 'USB 读卡器（Device）实验'
 sidebar_position: 52
 ---
 
-# USB Device Card Reader
+# USB 读卡器（Device）实验
 
-USB 读卡器（Device）实验
+USB Device Card Reader
 
 ## 前言
 

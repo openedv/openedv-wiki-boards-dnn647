@@ -1,11 +1,11 @@
 ---
-title: 'EEPROM'
+title: 'EEPROM 实验'
 sidebar_position: 23
 ---
 
-# EEPROM
+# EEPROM 实验
 
-EEPROM实验
+EEPROM
 
 ## 前言
 

@@ -1,11 +1,11 @@
 ---
-title: 'Chinese Show'
+title: '汉字显示实验'
 sidebar_position: 40
 ---
 
-# Chinese Show
+# 汉字显示实验
 
-汉字显示实验
+Chinese Show
 
 ## 前言
 

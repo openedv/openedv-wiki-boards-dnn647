@@ -1,11 +1,11 @@
 ---
-title: 'AI Instance Segmentation'
+title: '实例分割实验'
 sidebar_position: 3
 ---
 
-# AI Instance Segmentation
+# 实例分割实验
 
-实例分割实验
+AI Instance Segmentation
 
 ## 前言
 

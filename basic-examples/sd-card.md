@@ -1,11 +1,11 @@
 ---
-title: 'SD Card'
+title: 'SD 卡实验'
 sidebar_position: 38
 ---
 
-# SD Card
+# SD 卡实验
 
-SD 卡实验
+SD Card
 
 ## 前言
 
