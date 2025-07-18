@@ -71,7 +71,7 @@ import TabItem from '@theme/TabItem';
 
                 :::
 
-                `ExtMemLoader`：Appli 工程主要用于开发 External loader，External loader 主要用于 STM32CubeProgrammer、STM32CubeIDE 等工具访问、操作 MCU 外部 Flash。
+                `ExtMemLoader`：ExtMemLoader 工程主要用于开发 External loader，External loader 主要用于 STM32CubeProgrammer、STM32CubeIDE 等工具访问、操作 MCU 外部 Flash。
 
                 :::warning[ExtMemLoader 注意事项]
 
